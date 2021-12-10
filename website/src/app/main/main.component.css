@@ -1,0 +1,34 @@
+.main-container{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+
+  background-color: #212121;
+
+  color: aliceblue;
+}
+
+.text-wrapper{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: lime 1px solid;
+}
+.logo-wrapper{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* todo fix measurements and add actual logo */
+.logo{
+  width: 70%;
+  height: 50%;
+}
