@@ -8,7 +8,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import { MainComponent } from './main/main.component';
 import { CardComponent } from './card/card.component';
-import {MatCard, MatCardModule} from "@angular/material/card";
+import {MatCardModule} from "@angular/material/card";
+import {CommonModule} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,12 @@ import {MatCard, MatCardModule} from "@angular/material/card";
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    CommonModule,
+    CommonModule,
+    CommonModule,
+    CommonModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

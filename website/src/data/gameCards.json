@@ -1,0 +1,21 @@
+[
+  {
+    "type": "GAME",
+    "title": "Treasure",
+    "Subtitle": "Something about the treasures",
+    "image": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+  },
+  {
+    "type": "GAME",
+    "title": "Enemies",
+    "Subtitle": "Something about the enemies",
+    "image": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+  },
+  {
+    "type": "GAME",
+    "title": "World",
+    "Subtitle": "Something about the world",
+    "image": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+  }
+]
+
