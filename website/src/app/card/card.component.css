@@ -14,15 +14,15 @@
 
 .card{
   max-width: 300px;
+  max-height: 500px;
   margin: 0 25px 0 25px;
 }
 
 .left{
-  background: #821414;
+  background: #c2185b;
   border-radius: 5px;
+  width: 300px;
   margin-left: 10px;
   margin-top: 2%;
   padding-top: 40%;
-  width: 300px;
-
 }

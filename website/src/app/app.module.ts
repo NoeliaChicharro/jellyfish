@@ -10,6 +10,7 @@ import { MainComponent } from './main/main.component';
 import { CardComponent } from './card/card.component';
 import {MatCardModule} from "@angular/material/card";
 import {CommonModule} from "@angular/common";
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -25,10 +26,7 @@ import {CommonModule} from "@angular/common";
     MatToolbarModule,
     MatCardModule,
     CommonModule,
-    CommonModule,
-    CommonModule,
-    CommonModule,
-    CommonModule
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
