@@ -12,6 +12,7 @@ import {MatCardModule} from "@angular/material/card";
 import {CommonModule} from "@angular/common";
 import {MatButtonModule} from "@angular/material/button";
 import { TrailerComponent } from './trailer/trailer.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TrailerComponent } from './trailer/trailer.component';
     ToolbarComponent,
     MainComponent,
     CardComponent,
-    TrailerComponent
+    TrailerComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
