@@ -13,6 +13,9 @@ import {CommonModule} from "@angular/common";
 import {MatButtonModule} from "@angular/material/button";
 import { TrailerComponent } from './trailer/trailer.component';
 import { FooterComponent } from './footer/footer.component';
+import { FormComponent } from './form/form.component';
+import {MatInput, MatInputModule} from "@angular/material/input";
+import {MatFormField, MatFormFieldModule, MatLabel} from "@angular/material/form-field";
 
 @NgModule({
   declarations: [
@@ -21,7 +24,8 @@ import { FooterComponent } from './footer/footer.component';
     MainComponent,
     CardComponent,
     TrailerComponent,
-    FooterComponent
+    FooterComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +34,9 @@ import { FooterComponent } from './footer/footer.component';
     MatToolbarModule,
     MatCardModule,
     CommonModule,
-    MatButtonModule
+    MatButtonModule,
+    MatInputModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
