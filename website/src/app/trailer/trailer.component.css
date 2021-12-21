@@ -1,0 +1,13 @@
+.trailer-wrapper{
+  width: 100vw;
+  height: 40vh;
+  background-color: #212121;
+  margin: 0;
+}
+
+.trailer-wrapper:first-child{
+  color: aliceblue;
+  margin: 0;
+}
+
+

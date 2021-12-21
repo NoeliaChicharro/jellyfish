@@ -11,13 +11,15 @@ import { CardComponent } from './card/card.component';
 import {MatCardModule} from "@angular/material/card";
 import {CommonModule} from "@angular/common";
 import {MatButtonModule} from "@angular/material/button";
+import { TrailerComponent } from './trailer/trailer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     MainComponent,
-    CardComponent
+    CardComponent,
+    TrailerComponent
   ],
   imports: [
     BrowserModule,
