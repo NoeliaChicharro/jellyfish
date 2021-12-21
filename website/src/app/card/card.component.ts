@@ -1,5 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import * as gameCards from './gameCards.json';
+import {Component, Input, OnInit} from '@angular/core';
+
+export class Game {
+  type?:string;
+  title?:string;
+  description?:string;
+  image?:string;
+}
 
 @Component({
   selector: 'app-card',
@@ -8,16 +14,14 @@ import * as gameCards from './gameCards.json';
 })
 export class CardComponent implements OnInit {
 
-  public gameList: {
-      type:string,
-      title:string,
-      description:string,
-      image:string
-  }[]  = gameCards ;
+  @Input()
+  game?: Game;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
+    console.log(this.game)
   }
 
 }

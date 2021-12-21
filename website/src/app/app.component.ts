@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import gameList from "./gameCards.json";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'website';
+
+  list = gameList.game;
 }
