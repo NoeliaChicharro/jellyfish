@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import gameList from "./gameCards.json";
+import cards from "./cards.json";
 
 @Component({
   selector: 'app-root',
@@ -9,5 +9,8 @@ import gameList from "./gameCards.json";
 export class AppComponent {
   title = 'website';
 
-  list = gameList.game;
+  // @todo don't give whole json
+  gameList = cards.game;
+  personList = cards.person;
+
 }

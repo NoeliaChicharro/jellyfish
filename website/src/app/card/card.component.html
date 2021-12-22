@@ -1,11 +1,17 @@
 <mat-card class="card">
   <mat-card-header>
-    <mat-card-title>{{ game?.title }}</mat-card-title>
+    <mat-card-title>{{game ? game.title : person?.title}}</mat-card-title>
+    <mat-card-subtitle>{{person?.subtitle}}</mat-card-subtitle>
   </mat-card-header>
-  <img mat-card-image src={{game?.image}} alt="Photo of a Shiba Inu">
+  <img mat-card-image [src]="game ? game.image : person?.image" alt="{{game ? game.alt : person?.alt}}">
   <mat-card-content>
     <p>
-      {{game?.description}}
+      {{game ? game.description : person?.description}}
     </p>
   </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color= "primary">LIKE</button>
+    <button mat-raised-button color= "primary">SHARE</button>
+  </mat-card-actions>
+
 </mat-card>
