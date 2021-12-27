@@ -2,3 +2,9 @@
   flex: 1 1 auto;
   position: fixed;
 }
+
+.button-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}

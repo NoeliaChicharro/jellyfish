@@ -9,7 +9,6 @@ import cards from "./cards.json";
 export class AppComponent {
   title = 'website';
 
-  // @todo don't give whole json
   gameList = cards.game;
   personList = cards.person;
 
