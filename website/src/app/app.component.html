@@ -2,45 +2,10 @@
   <app-toolbar></app-toolbar>
 </nav>
 
-<main>
-  <app-main></app-main>
-</main>
-
 <section>
-  <div class="game-card-wrapper">
-    <h1 class="section-title">Deep Dive</h1>
-    <div class="cards">
-      <app-card *ngFor="let item of gameList" [game]="item"></app-card>
-    </div>
-  </div>
-</section>
-
-<section style="background-color: #212121">
-  <div class="titles">
-    <h1 class="section-title">Trailer</h1>
-  </div>
-  <app-trailer></app-trailer>
-</section>
-
-<section>
-  <div class="about-card-wrapper">
-    <div class="titles">
-      <h1 class="section-title">Team</h1>
-    </div>
-    <div class="cards">
-      <app-card *ngFor="let item of personList" [person]="item"></app-card>
-    </div>
-  </div>
-</section>
-
-<section id="form-section">
-  <div class="titles">
-    <h1 class="section-title">Do you need help?</h1>
-  </div>
-  <app-form></app-form>
+  <router-outlet></router-outlet>
 </section>
 
 <footer>
   <app-footer></app-footer>
 </footer>
-
