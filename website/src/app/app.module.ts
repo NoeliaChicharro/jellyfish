@@ -16,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FormComponent } from './form/form.component';
 import {MatInput, MatInputModule} from "@angular/material/input";
 import {MatFormField, MatFormFieldModule, MatLabel} from "@angular/material/form-field";
+import { ImprintComponent } from './imprint/imprint.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {MatFormField, MatFormFieldModule, MatLabel} from "@angular/material/form
     CardComponent,
     TrailerComponent,
     FooterComponent,
-    FormComponent
+    FormComponent,
+    ImprintComponent
   ],
   imports: [
     BrowserModule,
