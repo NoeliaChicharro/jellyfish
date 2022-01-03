@@ -4,7 +4,20 @@
   margin: 10px;
 }
 
+.title{
+  color: #c2185b;
+}
+
 .header-image {
   background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
   background-size: cover;
+}
+
+img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+img:hover{
+  filter: none;
 }

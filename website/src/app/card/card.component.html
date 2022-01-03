@@ -1,6 +1,6 @@
 <mat-card class="card">
   <mat-card-header>
-    <mat-card-title>{{game ? game.title : person?.title}}</mat-card-title>
+    <mat-card-title class="title">{{game ? game.title : person?.title}}</mat-card-title>
     <mat-card-subtitle>{{person?.subtitle}}</mat-card-subtitle>
   </mat-card-header>
   <img mat-card-image [src]="game ? game.image : person?.image" alt="{{game ? game.alt : person?.alt}}">

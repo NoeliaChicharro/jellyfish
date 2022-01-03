@@ -29,7 +29,7 @@
         "title": "Carmen Fenk",
         "subtitle": "Audio",
         "description": "Something about the Carmen",
-        "image": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "image": "./assets/photos/CarmenFenk.png",
         "alt": "dog"
       },
       {
@@ -37,7 +37,7 @@
         "title": "Sarah Rama Zuber",
         "subtitle": "Audio",
         "description": "Something about the Sarah",
-        "image": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "image": "./assets/photos/SarahZuber.png",
         "alt": "dog"
       },
       {
@@ -45,7 +45,7 @@
         "title": "Marco Fleischmann",
         "subtitle": "Game Art",
         "description": "Something about the Marco",
-        "image": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "image": "./assets/photos/MarcoFleischmann.png",
         "alt": "dog"
       },
       {
@@ -53,7 +53,7 @@
         "title": "Erika Cranor",
         "subtitle": "Game Art",
         "description": "Something about the Erika",
-        "image": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "image": "./assets/photos/ErikaCranor.png",
         "alt": "dog"
       },
       {
@@ -61,7 +61,7 @@
         "title": "Sascha Müller",
         "subtitle": "Games Programming",
         "description": "Something about the Sascha",
-        "image": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "image": "./assets/photos/Sascha.png",
         "alt": "dog"
       },
       {
@@ -69,7 +69,7 @@
         "title": "Noelia Chicharro",
         "subtitle": "Web Development",
         "description": "Something about the Noelia",
-        "image": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "image": "./assets/photos/NoeliaChicharro.png",
         "alt": "dog"
       }
     ]
