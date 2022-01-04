@@ -10,10 +10,9 @@ mat-toolbar.footer{
   justify-content: center;
   align-items: center;
   height: auto;
-  background-color: #212121;
 }
 
 a{
   text-decoration: none;
-  color: beige;
+  color: rgb(234,10,140);
 }

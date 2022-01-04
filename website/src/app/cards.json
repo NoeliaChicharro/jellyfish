@@ -3,23 +3,23 @@
   [
     {
     "type": "GAME",
-    "title": "Treasure",
-    "description": "Something about the treasures",
-    "image": "https://material.angular.io/assets/img/examples/shiba2.jpg",
-      "alt": "dog"
+    "title": "Schätze",
+    "description": "Finde alle Schätze. Doch gebe acht, sie werden bewacht.",
+    "image": "./assets/game/schatz.jpg",
+      "alt": "Schatzkiste"
   },
     {
       "type": "GAME",
-      "title": "Enemies",
-      "description": "Something about the enemies",
-      "image": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "title": "Gefahren",
+      "description": "Lass dich nicht von den Anglerfischen erwischen.",
+      "image": "./assets/game/anglerfisch.jpg",
       "alt": "dog"
     },
     {
       "type": "GAME",
-      "title": "World",
-      "description": "Something about the world",
-      "image": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "title": "Welt",
+      "description": "Eine bezaubernde Unterwasserwelt.",
+      "image": "./assets/game/welt.jpg",
       "alt": "dog"
     }],
   "person":

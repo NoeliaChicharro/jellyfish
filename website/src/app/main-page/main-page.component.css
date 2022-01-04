@@ -2,13 +2,16 @@ body{
   box-sizing: border-box;
 }
 
+section{
+  background: #212121;
+  padding-bottom: 5rem;
+}
+
 .game-card-wrapper,.about-card-wrapper{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  background-color: black;
 }
 
 .titles{
@@ -37,10 +40,4 @@ body{
 
 app-card{
   display: inline-block;
-}
-
-#form-section{
-  width: 100vw;
-  height: 50vh;
-  background-color: #212121;
 }

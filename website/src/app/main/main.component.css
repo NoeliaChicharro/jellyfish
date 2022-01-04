@@ -9,9 +9,14 @@
   color: aliceblue;
 }
 
+button{
+  background-color: rgb(234,10,140);
+}
+
 .text-wrapper{
-  width: 50%;
+  width: 60%;
   height: 100%;
+  padding: 0 0 0 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,15 +24,39 @@
 
 }
 .logo-wrapper{
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* todo fix measurements and add actual logo */
+
 .logo{
   width: 70%;
   height: 50%;
+}
+
+@media screen and (max-width: 690px) {
+  .main-container{
+    flex-direction: column;
+  }
+
+  .text-wrapper{
+    margin: auto;
+  }
+
+  .logo-wrapper{
+    margin: auto;
+  }
+
+  .logo{
+    margin: auto;
+    width: 200px;
+    height: 180px;
+  }
+
+  button{
+    display: none;
+  }
 }
