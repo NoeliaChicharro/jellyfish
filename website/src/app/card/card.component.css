@@ -4,6 +4,10 @@
   margin: 10px;
 }
 
+.person{
+  min-height: 600px;
+}
+
 .title{
   color: rgb(234,10,140);
 }

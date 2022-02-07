@@ -13,14 +13,14 @@
       "title": "Gefahren",
       "description": "Lass dich nicht von den Anglerfischen erwischen.",
       "image": "./assets/game/anglerfisch.png",
-      "alt": "dog"
+      "alt": "Anglerfisch"
     },
     {
       "type": "GAME",
       "title": "Welt",
       "description": "Eine bezaubernde Unterwasserwelt.",
       "image": "./assets/game/welt.png",
-      "alt": "dog"
+      "alt": "Korallen"
     }],
   "person":
     [
@@ -28,49 +28,50 @@
         "type": "PERSON",
         "title": "Carmen Fenk",
         "subtitle": "Audio",
-        "description": "Something about the Carmen",
+        "description": "Sie liebt es mit Ton Bilder zu erschaffen. Ausserdem ist sie ein ausgesprochener Mikrofon-Nerd und hat für dieses Projekt selbst eins gebaut – ein Hydrophone. Nebst den Aufnahmen unter Wasser hat sie auch jeden Quietsch, Knarz, Rumpel und Zapp produziert, die man in Deep Dive hört.",
         "image": "./assets/photos/CarmenFenk.png",
-        "alt": "dog"
+        "alt": "Carmen Fenk"
       },
       {
         "type": "PERSON",
         "title": "Sarah Rama Zuber",
         "subtitle": "Audio",
-        "description": "Something about the Sarah",
+        "description": "Wenn du das Gefühl hast, das Orchester steht life bei Dir im Wohnzimmer, dann war Sarah Rama Zuber am Werk. Sie betreut bei Deep-Dive mit viel Herzblut und Passion die Sektion Dramaturgie und ist zuständig für die gesamte Musik und alle verschiedenen Hintergrundstücke.",
+
         "image": "./assets/photos/SarahZuber.png",
-        "alt": "dog"
+        "alt": "Sarah Rama Zuber"
       },
       {
         "type": "PERSON",
         "title": "Marco Fleischmann",
         "subtitle": "Game Art",
-        "description": "Something about the Marco",
+        "description": "Dem Traum von grossen RPG und MMORPG's etwas näher gekommen ist Marco mit seinen Props, dank grandioser Vielfalt in der Gestaltung der Welt und des Innenlebens. Alle Steine, Grässer und Korallen sind handgezeichnet. Mit besonderem Stolz schaut er auf das Schiffswrack, das jedem sofort ins Auge stickt",
         "image": "./assets/photos/MarcoFleischmann.png",
-        "alt": "dog"
+        "alt": "Marco Fleischmann"
       },
       {
         "type": "PERSON",
         "title": "Erika Cranor",
         "subtitle": "Game Art",
-        "description": "Something about the Erika",
+        "description": "Schritt für Schritt schlägt man sich im Spiel durch die Welt. Dies ist dank Erikas Charakter und den Animationen möglich. Neben diesen kreierte sie auch die gefährlichen Anglerfische die einem die Nackenhaare aufstellen. Für Licht sorgen ihre Quellen.",
         "image": "./assets/photos/ErikaCranor.png",
-        "alt": "dog"
+        "alt": "Erika Cranor"
       },
       {
         "type": "PERSON",
         "title": "Sascha Müller",
         "subtitle": "Games Programming",
-        "description": "Something about the Sascha",
+        "description": "Seit Level 13 ist er immer die neusten Technologien am lernen und testen.\nIn Deep-Dive war er somit zuständig für die Programmierung und Implementation aller Einzelteile. Vom kleinsten Grashalm bis hin zur alles überdauernden Hintergrundmusik.\n",
         "image": "./assets/photos/Sascha.png",
-        "alt": "dog"
+        "alt": "Sascha Müller"
       },
       {
         "type": "PERSON",
         "title": "Noelia Chicharro",
         "subtitle": "Web Development",
-        "description": "Something about the Noelia",
+        "description": "Die Passion Webseiten zu entwickeln ist zwar erst im Laufe des Lebenslaufes gekommen, doch die Liebe zum Menschen war schon immer da. Daher ist sie für die UX und das UI zuständig. Auch die Webseite hat sie designt und programmiert.",
         "image": "./assets/photos/NoeliaChicharro.png",
-        "alt": "dog"
+        "alt": "Noelia Chicharro"
       }
     ]
 }
