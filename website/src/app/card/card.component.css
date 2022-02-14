@@ -1,4 +1,4 @@
-.card {
+.card{
   width: 300px;
   height: auto;
   margin: 10px;
@@ -23,5 +23,6 @@ img{
 }
 
 img:hover{
+  -webkit-filter: none;
   filter: none;
 }

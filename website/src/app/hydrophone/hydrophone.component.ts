@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
 import {MatDialog} from "@angular/material/dialog";
 import {DialogContentComponent} from "../dialog-content/dialog-content.component";
 
@@ -7,14 +7,11 @@ import {DialogContentComponent} from "../dialog-content/dialog-content.component
   templateUrl: './hydrophone.component.html',
   styleUrls: ['./hydrophone.component.css']
 })
-export class HydrophoneComponent implements OnInit {
+export class HydrophoneComponent{
 
   constructor(public dialog: MatDialog) { }
 
-  ngOnInit(): void {}
-
   openDialog(){
-    const dialogRef = this.dialog.open(DialogContentComponent)
+    this.dialog.open(DialogContentComponent)
   }
-
 }

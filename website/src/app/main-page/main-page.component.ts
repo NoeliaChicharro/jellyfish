@@ -8,12 +8,8 @@ import cards from "../cards.json";
 })
 export class MainPageComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   gameList = cards.game;
   personList = cards.person;
-
 }

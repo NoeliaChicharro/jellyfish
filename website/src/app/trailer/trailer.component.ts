@@ -7,9 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TrailerComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }
