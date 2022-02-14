@@ -19,6 +19,8 @@ import {MatFormField, MatFormFieldModule, MatLabel} from "@angular/material/form
 import { ImprintComponent } from './imprint/imprint.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { HydrophoneComponent } from './hydrophone/hydrophone.component';
+import {MatDialogModule} from "@angular/material/dialog";
+import { DialogContentComponent } from './dialog-content/dialog-content.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { HydrophoneComponent } from './hydrophone/hydrophone.component';
     FormComponent,
     ImprintComponent,
     MainPageComponent,
-    HydrophoneComponent
+    HydrophoneComponent,
+    DialogContentComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,8 @@ import { HydrophoneComponent } from './hydrophone/hydrophone.component';
     CommonModule,
     MatButtonModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

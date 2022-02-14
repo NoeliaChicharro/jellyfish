@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {MatDialog} from "@angular/material/dialog";
+import {DialogContentComponent} from "../dialog-content/dialog-content.component";
 
 @Component({
   selector: 'app-hydrophone',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HydrophoneComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  openDialog(){
+    const dialogRef = this.dialog.open(DialogContentComponent)
   }
 
 }
